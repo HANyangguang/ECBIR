@@ -66,9 +66,12 @@ To install all dependencies listend in the requirements file:
 ```sh
 git clone https://github.com/HANyangguang/ECBIR.git
 ```
-2. Create the **dataset** folder in the dataset_builder_module folder
+2. Create the **dataset** folder and other folders in the static folder
 ```sh
-mkdir dataset_builder_module/dataset
+mkdir static/dataset
+mkdir static/feature
+mkdir static/resized
+mkdir static/uploads
 ```
 3. Download the books covers dataset from the Kaggle and unpack the dataset into the **dataset** folder
 
