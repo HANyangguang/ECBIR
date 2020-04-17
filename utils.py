@@ -134,24 +134,6 @@ def get_locations_2_use(image_db_index,
 
     return np.array(locations_2_use_query), np.array(locations_2_use_db)
 
-'''
-def query_image_pipeline(image_path, save_path):
-    
-    #Model inference wrapper. This function queries the model with the Query image and generates its features.
-
-    #image_path - String, path to the Query image
-    #save_path - String, path where the Query image is saved
-
-    pil_image = Image.open(image_path)
-
-    pil_image_rgb = pil_image.convert('RGB')
-
-    #Saves the resized image to the disk
-    pil_image_rgb.save(save_path, format='JPEG', quality=90)
-
-    query_image_locations, query_image_descriptors = query_image_features_generator(save_path,)
-    return query_image_locations, query_image_descriptors, save_path
-'''
 
 def query_image_pipeline(image_path, save_path):
     #Model inference wrapper. This function queries the model with the Query image and generates its features.
