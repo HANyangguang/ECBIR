@@ -72,7 +72,7 @@ mkdir dataset_builder_module/dataset
 ```
 3. Download the books covers dataset from the Kaggle and unpack the dataset into the **dataset** folder
 
-Link to the dataset: https://www.kaggle.com/lukaanicin/book-covers-dataset
+Link to the [dataset](https://www.kaggle.com/lukaanicin/book-covers-dataset)
 
 4. Run the script **offline.py** to index the database use DELF and HNSW
 ```sh
@@ -87,7 +87,7 @@ python(3) server.py
 ## Usage examples
 
 <p align="center"> 
-   <img src="demo/ECGIRdemo.png" alt="Example Image" width="550" height="900">
+   <img src="/demo/ECBIRdemo.png" alt="Example Image" width="550" height="900">
 </p>
   
 
