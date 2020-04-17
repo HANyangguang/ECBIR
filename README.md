@@ -90,7 +90,7 @@ python(3) server.py
 ## Usage examples
 
 <p align="center"> 
-   <img src="/demo/ECBIRdemo.png" alt="Example Image" width="550" height="900">
+   <img src="/demo/ECBIRdemo.png" alt="Example Image" width="550">
 </p>
   
 
