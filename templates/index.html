@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></head>
+    <body>
+        <div class="container">
+	    <h2><b>Exact</b> Content Based Image Retrieval with Deep Learning</h2>
+	    <br />
+            <form method="POST" enctype="multipart/form-data">
+                <input type="file" name="query_img"><br>
+                <input type="submit">
+            </form>
+            <h3>Query:</h3>
+            {% if query_path %}
+            <img src="{{ query_path }}" width="250px">
+            {% endif %}
+            <h3>Results:</h3>
+            {% for cover in cover_results %}
+            <figure style="float: left; margin-right: 20px; margin-bottom: 20px;">
+                <img src="{{ cover[0] }}" height="200px">
+		<figcaption><p>{{ cover[1] }}</p></figcaption>
+            </figure>
+            {% endfor %}
+        </div>
+    </body>
+</html>
+
