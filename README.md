@@ -119,8 +119,8 @@ Server of the project repo: [https://github.com/HANyangguang/ECBIR](https://gith
 ## Acknowledgements
 * [DEep Local Features (DELF) paper](https://arxiv.org/pdf/1612.06321.pdf)
 * [DELF Reference implementation](https://www.dlology.com/blog/easy-landmark-image-recognition-with-tensorflow-hub-delf-module/)
-* [Original implementation](https://github.com/lucko515/search-book-by-cover-server)
-* [Web Structure](https://github.com/matsui528/sis)
+* [Search Engine](https://github.com/lucko515/search-book-by-cover-server)
+* [Web HTML](https://github.com/matsui528/sis)
 
 
 ## Version Note
