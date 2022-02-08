@@ -14,12 +14,8 @@ Exact Content-based Image Retrieval System
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
-* [Contributing](#contributing)
 * [License](#license)
-* [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -86,24 +82,10 @@ python(3) server.py
 <p align="center"> 
    <img src="/demo/ECBIRdemo.png" alt="Example Image" width="550">
 </p>
-  
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature_name/NewFeature`)
-3. Commit your Changes (`git commit -m 'Explain your commit'`)
-4. Push to the Branch (`git push origin feature_name/NewFeature`)
-5. Open a Pull Request
 
 <!-- LICENSE -->
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
-
-<!-- CONTACT -->
-## Contact
-Server of the project repo: [https://github.com/HANyangguang/ECBIR](https://github.com/HANyangguang/ECBIR)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
