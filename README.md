@@ -3,9 +3,6 @@ Exact Content-based Image Retrieval System
 <h3 align="center">Book Search Engine</h3>
 <p align="center">
     An application that allows user to search for their favorite book just by taking a picture of it.
-    <br />
-    <a href="https://github.com/HANyangguang/ECBIR"><strong>Explore the docs »</strong></a>
-    <br />
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -36,9 +33,6 @@ There are many ways to search for a book that you are interested in -  searching
 This open-source project tries to solve that problem by leveraging the power of Deep Learning and creating an system that allows an end-user to take a picture of books' cover and find places where they can buy the book. 
 
 This Book Search Engine is an open-source project that demonstrates a way of using Deep Learning in a real-world setting. 
-
-It is opened for contributions. :-)
-
 
 ### Built With
 * [Tensorflow](https://www.tensorflow.org/)
@@ -97,10 +91,6 @@ python(3) server.py
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Let's improve this project together! :-)
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**. 
-
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature_name/NewFeature`)
 3. Commit your Changes (`git commit -m 'Explain your commit'`)
@@ -122,17 +112,3 @@ Server of the project repo: [https://github.com/HANyangguang/ECBIR](https://gith
 * [Search Engine](https://github.com/lucko515/search-book-by-cover-server)
 * [Web HTML](https://github.com/matsui528/sis)
 
-
-## Version Note
-### v1
-I improve its efficiency by removing the kd tree construction in the find_closest_book function. It reduces query time significantly by almost half of the former time spent.
-
-### v2
-0. start to develop my own app by deleting many non-necessary components and add my own function. easier to read. free from the dependence of csv file and generate features only by images themselves.
-1. try to cut a ROI using opencv, but failed due to the crash caused by ROI Selector. Wait to repair but paobably give up and turn my direnction to Index using v2.0 branch.
-
-### v3
-update the dataset, including Caltech 251, Book Covers Dataset, totally 64,251 images. optimise the html structure.
-
-### v4
-Replace kd Tree with HNSW, almost satisfy real-time requirments! 
