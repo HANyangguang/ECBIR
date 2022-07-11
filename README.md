@@ -24,11 +24,9 @@ Exact Content-based Image Retrieval System
 <img src="/demo/ECBIR.jpg"></img>
 </p>
 
-There are many ways to search for a book that you are interested in -  searching it by name, author, ISBN, and any other relevant features. That is all great, but the process is becoming very long as we introduce more and more features in the search system. And what if we want to find the cheapest place to buy the book? We would need to go to multiple websites and type the same query all over again! 
+There are many ways to search for a book that you are interested in -  searching it by name, author, ISBN, and any other relevant features. That is all great, but the process is becoming very long as we introduce more and more features in the search system. 
 
-This open-source project tries to solve that problem by leveraging the power of Deep Learning and creating an system that allows an end-user to take a picture of books' cover and find places where they can buy the book. 
-
-This Book Search Engine is an open-source project that demonstrates a way of using Deep Learning in a real-world setting. 
+This project tries to find the book you want by leveraging the power of Deep Learning and creating an system that allows an end-user to take a picture of books' cover and search the book in the database. 
 
 ### Built With
 * [Tensorflow](https://www.tensorflow.org/)
@@ -93,4 +91,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 * [DELF Reference implementation](https://www.dlology.com/blog/easy-landmark-image-recognition-with-tensorflow-hub-delf-module/)
 * [Search Engine](https://github.com/lucko515/search-book-by-cover-server)
 * [Web HTML](https://github.com/matsui528/sis)
-
